@@ -1,0 +1,28 @@
+.container {
+    width: calc(100% - 50px);
+    margin: 30px auto auto 20px;
+
+}
+
+@media (max-width: 424px) {
+    .form {
+        flex-direction: column;
+        gap: 10px;
+    }
+    .form * {
+        width: 50%;
+    }
+}
+
+@media (min-width:426px){ 
+    .container {
+        width: calc(100% - 130px);
+    }
+}
+@media (min-width: 840px) {
+.container {
+    width: calc(100% - 470px);
+    margin-left: 200px;
+
+}
+}
